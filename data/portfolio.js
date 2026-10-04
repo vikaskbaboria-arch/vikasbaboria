@@ -61,19 +61,10 @@ export const projects = [
     hindiTitle: "एन.ए.सी — मूवीज़ एवं सीरीज़",
     desc: "A high-octane Next.js web application to browse trending films, discover series, inspect user collections, and curate your ultimate entertainment watchlist with MongoDB Atlas integration.",
     tags: ["Next.js", "React", "MongoDB Atlas", "Node.js", "REST APIs"],
-    img: "/nac-screenshot.png",
+    img: "/public/image.png",
     live: "https://nac2-ssl1.vercel.app/",
     code: "https://github.com/vikaskbaboria-arch/nac2",
     badge: "SUPERHIT RELEASE",
   },
-    {
-    title: "NAC — Movies & Series Discovery",
-    hindiTitle: "एन.ए.सी — मूवीज़ एवं सीरीज़",
-    desc: "A high-octane Next.js web application to browse trending films, discover series, inspect user collections, and curate your ultimate entertainment watchlist with MongoDB Atlas integration.",
-    tags: ["Next.js", "React", "MongoDB Atlas", "Node.js", "REST APIs"],
-    img: "/nac-screenshot.png",
-    live: "https://nac2-ssl1.vercel.app/",
-    code: "https://github.com/vikaskbaboria-arch/nac2",
-    badge: "SUPERHIT RELEASE",
-  },
+  
 ];
