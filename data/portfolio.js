@@ -61,10 +61,18 @@ export const projects = [
     hindiTitle: "एन.ए.सी — मूवीज़ एवं सीरीज़",
     desc: "A high-octane Next.js web application to browse trending films, discover series, inspect user collections, and curate your ultimate entertainment watchlist with MongoDB Atlas integration.",
     tags: ["Next.js", "React", "MongoDB Atlas", "Node.js", "REST APIs"],
-    img: "/public/image.png",
+   
     live: "https://nac2-ssl1.vercel.app/",
     code: "https://github.com/vikaskbaboria-arch/nac2",
     badge: "SUPERHIT RELEASE",
   },
-  
+  {
+    title: "Campux — College Marketplace",
+    hindiTitle: "कैंपस मार्केटप्लेस",
+    desc: "A campus-only marketplace where college students can list, discover, buy, and sell items within their college community. Built with a React frontend and an Express backend, with Socket.IO for real-time features.",
+    tags: ["React", "Vite", "Tailwind CSS", "Express.js", "Socket.IO", "MongoDB"],
+    live: "https://campux-one.vercel.app/",
+    code: "https://github.com/vikaskbaboria-arch/campux",
+    badge: "CAMPUS MARKETPLACE",
+  },
 ];

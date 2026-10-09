@@ -33,7 +33,33 @@ export default function ProjectsSection({ active, projects, github }) {
 
               {/* Screenshot Frame */}
               <div className="truck-shot">
-                <img src={project.img} alt={`${project.title} screenshot`} />
+                {project.img ? (
+                  <img src={project.img} alt={`${project.title} screenshot`} />
+                ) : (
+                  <div
+                    role="img"
+                    aria-label={`${project.title} preview`}
+                    style={{
+                      height: "100%",
+                      minHeight: "180px",
+                      display: "flex",
+                      flexDirection: "column",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      gap: "10px",
+                      background: "radial-gradient(circle at 50% 45%, #174a68 0%, #071722 72%)",
+                      color: "#fff",
+                      fontFamily: "var(--font-display)",
+                    }}
+                  >
+                    <span style={{ color: "var(--gold)", fontSize: "12px", letterSpacing: "0.16em" }}>
+                      YOUR CAMPUS, YOUR MARKETPLACE
+                    </span>
+                    <span style={{ fontSize: "clamp(30px, 5vw, 54px)", fontWeight: 900, letterSpacing: "0.08em" }}>
+                      CAMPUX
+                    </span>
+                  </div>
+                )}
                 <div
                   style={{
                     position: "absolute",
